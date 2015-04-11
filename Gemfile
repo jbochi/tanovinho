@@ -53,6 +53,9 @@ gem 'refile', require: ["refile/rails", "refile/image_processing"]
 gem "aws-sdk", '< 2'
 gem 'rmagick'
 
+# Integração com PagSeguro
+gem "pagseguro-oficial", "~> 2.1.1"
+
 # useful
   gem 'awesome_print'
   gem 'irbtools', require: 'irbtools/binding'
